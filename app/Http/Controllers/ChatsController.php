@@ -38,7 +38,7 @@ class ChatsController extends Controller
     //Retrieves all messages from the database and returns them as JSON data.
     public function fetchMessages()
     {
-        return Message::with('user')->get();
+        return Message::with('user')->where('user_id', Auth::user()->id)->get();
     }
 
     /**
