@@ -1,4 +1,5 @@
 <!-- GETTING STARTED -->
+## ChatGPT-powered Conversational Assistant
 ## Prerequisites
 
 You will need PHP, Composer and Node.js. For MacOS I recommend installing them with [Homebrew](https://brew.sh/). For Windows see instructions for [PHP](https://windows.php.net/download/), [Composer](https://getcomposer.org/doc/00-intro.md#installation-windows) and [Node](https://nodejs.org/en/download/).
